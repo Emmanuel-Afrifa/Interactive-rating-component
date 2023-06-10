@@ -39,7 +39,6 @@ function pageTwo(){
         }
         else {
             feedBackEle.innerHTML = '';
-            feedBackEle.style.backgroundColor = 'hsl(213, 19%, 18%)'
         }
         console.log(feedBackEle.innerHTML);   
 }

@@ -18,8 +18,8 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
 ![Screenshot of the webpage](./images/Web%20capture_10-6-2023_0239_127.0.0.1.jpeg)
 
 ### Links
-- [Github repository](#)
-- [Deployed site](#)
+- [Github repository](https://github.com/Emmanuel-Afrifa/Interactive-rating-component)
+- [Deployed site](https://interactive-rating-sol.netlify.app/)
 
 ## Process
 ### Tools Used
