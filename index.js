@@ -43,12 +43,14 @@ function pageTwo(){
         console.log(feedBackEle.innerHTML);   
 }
 
-if (window.location.href.slice(22) === 'index.html'){
-    pageOne();
-}
-else if (window.location.href.slice(22) === 'thank-you.html'){
-    pageTwo();
+function mainFunc(){
+    if (window.location.href.slice(22) === 'index.html'){
+        pageOne();
+    }
+    else if (window.location.href.slice(22) === 'thank-you.html'){
+        pageTwo();
+    }
 }
 
-
+window.onload = mainFunc;
 
