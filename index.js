@@ -44,10 +44,10 @@ function pageTwo(){
 }
 
 function mainFunc(){
-    if (window.location.href.slice(22) === 'index.html'){
+    if (document.body.className === 'rating-page'){
         pageOne();
     }
-    else if (window.location.href.slice(22) === 'thank-you.html'){
+    else if (document.body.className === 'thank-you-page'){
         pageTwo();
     }
 }
