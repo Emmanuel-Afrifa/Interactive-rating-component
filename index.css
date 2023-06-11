@@ -60,14 +60,20 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: bolder;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
 }
 
 .rating:hover {
     background-color: hsl(217, 12%, 63%);
+    color: white;
 }
 
-.rating:active {
+.rating:focus {
     background-color: hsl(25, 97%, 53%);
+    color: white;
+
 }
 
 #submit {
